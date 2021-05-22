@@ -1,0 +1,26 @@
+a {
+  z-index: 100;
+  margin: 0;
+  padding: 5px;
+  position: absolute;
+  background: #d3d3d333;
+}
+
+a:link {
+  color: black;
+}
+
+.juxCirc {
+  width: 16px;
+  height: 16px;
+  border-radius: 16px;
+  background-color: #0075ff;
+}
+
+.juxCirc:hover {
+  background-color: #005ecc;
+}
+
+.juxCirc .selected {
+  background-color: #003c82;
+}
